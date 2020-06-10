@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Header from './Header';
 import SubHead from './SubHead';
 import Measurement from './Measurement';
+import ButtonList from './ButtonList';
 import '../css/styles.css';
 
 class Quantity extends Component {
@@ -11,7 +12,7 @@ class Quantity extends Component {
                 <Header />
                 <div className="content">
                     <SubHead />
-                    <Measurement />
+                    <ButtonList />
                 </div>
             </div>
         )
