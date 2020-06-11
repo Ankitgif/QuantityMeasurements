@@ -79,3 +79,14 @@ button{
     background-color: rgba(202,124,235,0.2);
     border: 1px solid rgb(136, 43, 175)
 }
+.second-subhead-style{
+    font-size: xx-small;
+    display: flex;
+    color: grey;
+}
+#from{
+    padding-left: 465px;
+}
+#to{
+    margin-left: 185px;
+}
