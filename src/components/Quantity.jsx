@@ -3,6 +3,7 @@ import Header from './Header';
 import SubHead from './SubHead';
 import Measurement from './Measurement';
 import ButtonList from './ButtonList';
+import SecondSubHead from './SecondSubHead';
 import '../css/styles.css';
 
 class Quantity extends Component {
@@ -13,6 +14,7 @@ class Quantity extends Component {
                 <div className="content">
                     <SubHead />
                     <ButtonList />
+                    <SecondSubHead />
                 </div>
             </div>
         )
