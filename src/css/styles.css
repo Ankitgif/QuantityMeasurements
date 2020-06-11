@@ -10,13 +10,11 @@ body{
 #head{
     color: white;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    /* padding-left: 452px; */
     text-align: center;
 }
 .subhead_style{
     font-size: x-small;
     font-family: sans-serif;
-    /* padding-left: 465px ; */
     padding-left: 570px;
     color: rgb(78, 75, 75);
     text-shadow: rgb(41, 35, 35);
@@ -25,14 +23,6 @@ body{
     padding-left: 570px;
     display: flex;
 }
-/* button{
-    padding: 30px 30px ;
-    height: 120px;
-    width: 120px;
-    border: none;
-    border-radius: 7px;
-    background-color: white;
-} */
 button{
     height: 120px;
     width: 120px;
@@ -41,7 +31,7 @@ button{
     background-color: white;
 }
 
- img{
+img{
 margin-left: 32px;
 margin-top: 15px;
 justify-content: center;
@@ -99,7 +89,6 @@ justify-content: center;
 }
 .inputbox{
     margin: 0 29rem;
-    /* text-align: center; */
     box-sizing: border-box;
     padding-left: 100px;
 }
@@ -107,10 +96,8 @@ justify-content: center;
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
     width: 80%;
-    /* text-align: center; */
     margin-top: 10px;
     height: 40px;
-    /* border-style: none;  */
     box-sizing: border-box;
 }
 .inputbox span select {
@@ -137,17 +124,4 @@ justify-content: center;
   .boxtwo {
     padding-left: 10px;
 }
-/* .boxone{
-    padding-left: 460px;
-}
-#inputtwo{
-    margin-left: 73px;
-}
-#selecttwo{
-    margin-left: 72px;
-    width: 165px;
-}
-#selectone{
-    width: 165px;
-} */
 
