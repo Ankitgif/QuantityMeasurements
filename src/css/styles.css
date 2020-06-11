@@ -1,60 +1,65 @@
-/* *{
-    padding: 0;
-    margin: 0;
-    /* box-sizing: border-box; */
-/* }
 body{
     background: #eee;
-    padding: 0 16px;
-    overflow-x: hidden;
-} */ 
-body{
-    background: #eee;
-    
 } 
 .header-style{
     background-color: #3c9dc9;
     width: 100%;
-    padding: 16px 32px;
+    padding: 1px 32px;
     margin: auto -16px;
-       
 }
 #head{
     color: white;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    padding-left: 452px;
+    /* padding-left: 452px; */
+    text-align: center;
 }
 .subhead_style{
     font-size: x-small;
     font-family: sans-serif;
-    /* text-align: center; */
-    padding-left: 465px ;
-    color: rgb(36, 34, 34);
+    /* padding-left: 465px ; */
+    padding-left: 570px;
+    color: rgb(78, 75, 75);
     text-shadow: rgb(41, 35, 35);
 }
 .measurement_style{
-    padding-left: 465px;
+    padding-left: 570px;
+    display: flex;
 }
-button{
+/* button{
     padding: 30px 30px ;
     height: 120px;
     width: 120px;
     border: none;
     border-radius: 7px;
     background-color: white;
-}
-/* .measurement_style{
-    display: flex;
-    justify-content: space-evenly;
 } */
+button{
+    height: 120px;
+    width: 120px;
+    border: none;
+    border-radius: 7px;
+    background-color: white;
+}
+
+ img{
+margin-left: 32px;
+margin-top: 15px;
+justify-content: center;
+}
+
+#scale{
+    margin-left: 3rem;
+}
+
+#hot{
+    margin-left: 2.5rem;
+}
+
 #length,#temperature,#volume{
     display: inline-grid;
+    align-items: center;
     color: rgba(128, 128, 128, 0.233);
 }
-/* .content{
-    margin-left: 550px;
-    margin-top: 50px;
-} */
 #length:hover{
     color:  rgb(57, 124, 124);
 }
@@ -65,7 +70,7 @@ button{
     color: rgb(136, 43, 175);
 }
 #temperature,#volume{
-    margin-left: 40px;
+    margin-left: 60px;
 }
 #length:hover{
     background-color: rgba(175, 238, 238, 0.2);
@@ -83,10 +88,66 @@ button{
     font-size: xx-small;
     display: flex;
     color: grey;
+    margin:auto;
+    position:relative;
+    width: 607px; 
+    margin-top: 30px;
+    padding-left: 210px;
 }
-#from{
-    padding-left: 465px;
+.to{
+    margin: auto 12rem;
 }
-#to{
-    margin-left: 185px;
+.inputbox{
+    margin: 0 29rem;
+    /* text-align: center; */
+    box-sizing: border-box;
+    padding-left: 100px;
 }
+.inputbox input{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    width: 80%;
+    /* text-align: center; */
+    margin-top: 10px;
+    height: 40px;
+    /* border-style: none;  */
+    box-sizing: border-box;
+}
+.inputbox span select {
+    background-color: #fff;
+    color: #000;
+    font-size: inherit;
+    padding: 10px;
+    width: 80%;
+    border: 0;
+    margin: 0;
+    border-radius: 0px;
+    text-indent: 0.01px;
+    text-overflow: '';
+  }
+.boxone , .boxtwo {
+    float: left;
+    margin-top: 10px;
+    box-sizing: border-box;
+    width: 44%;
+}
+.boxone {
+    padding-right: 10px;
+}  
+  .boxtwo {
+    padding-left: 10px;
+}
+/* .boxone{
+    padding-left: 460px;
+}
+#inputtwo{
+    margin-left: 73px;
+}
+#selecttwo{
+    margin-left: 72px;
+    width: 165px;
+}
+#selectone{
+    width: 165px;
+} */
+
