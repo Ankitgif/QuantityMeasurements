@@ -60,7 +60,7 @@ justify-content: center;
     color: rgb(136, 43, 175);
 }
 #temperature,#volume{
-    margin-left: 60px;
+    margin-left: 40px;
 }
 #length:hover{
     background-color: rgba(175, 238, 238, 0.2);
@@ -85,7 +85,7 @@ justify-content: center;
     padding-left: 210px;
 }
 .to{
-    margin: auto 12rem;
+    margin: auto 13.6rem;
 }
 .inputbox{
     margin: 0 29rem;
@@ -116,7 +116,7 @@ justify-content: center;
     float: left;
     margin-top: 10px;
     box-sizing: border-box;
-    width: 44%;
+    width: 50%;
 }
 .boxone {
     padding-right: 10px;
