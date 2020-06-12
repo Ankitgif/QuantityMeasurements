@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Header from './Header';
 import SubHead from './SubHead';
-import Measurement from './Measurement';
 import ButtonList from './ButtonList';
 import SecondSubHead from './SecondSubHead';
 import '../css/styles.css';
