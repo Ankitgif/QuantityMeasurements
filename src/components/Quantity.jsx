@@ -4,7 +4,8 @@ import SubHead from './SubHead';
 import ButtonList from './ButtonList';
 import SecondSubHead from './SecondSubHead';
 import '../css/styles.css';
-import InputBox from './InputBox';
+//import InputBox from './InputBox';
+import InputBox from './Converter';
 
 class Quantity extends Component {
     render() {
