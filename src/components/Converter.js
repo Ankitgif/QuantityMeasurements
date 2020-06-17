@@ -196,6 +196,42 @@ class InputBox extends Component {
                 result
             })
         }
+        if(this.state.base==='Micrometre' && this.state.convertTo==='Metres'){
+            const result = input/1000000;
+            this.setState({
+                result
+            })
+        }
+        if(this.state.base==='Micrometre' && this.state.convertTo==='Kilometre'){
+            const result = input/1000000000;
+            this.setState({
+                result
+            })
+        }
+        if(this.state.base==='Micrometre' && this.state.convertTo==='Centimetres'){
+            const result = input/10000;
+            this.setState({
+                result
+            })
+        }
+        if(this.state.base==='Micrometre' && this.state.convertTo==='Milimetre'){
+            const result = input/1000;
+            this.setState({
+                result
+            })
+        }
+        if(this.state.base==='Micrometre' && this.state.convertTo==='Mile'){
+            const result = input*0.00000000062137;
+            this.setState({
+                result
+            })
+        }
+        if(this.state.base==='Micrometre' && this.state.convertTo==='Foot'){
+            const result = input*0.0000032808;
+            this.setState({
+                result
+            })
+        }
         
        
     } 
