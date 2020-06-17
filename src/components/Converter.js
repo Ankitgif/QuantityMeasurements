@@ -250,6 +250,12 @@ class InputBox extends Component {
                 result
             })
         }
+        if(this.state.base==='Mile' && this.state.convertTo==='Micrometre'){
+            const result = input/0.00000000062137;
+            this.setState({
+                result
+            })
+        }
         if(this.state.base==='Mile' && this.state.convertTo==='Milimetre'){
             const result = input/0.00000062137;
             this.setState({
