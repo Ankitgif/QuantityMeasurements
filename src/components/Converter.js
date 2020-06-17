@@ -31,17 +31,41 @@ class InputBox extends Component {
         )
     }
 
-    // handleResult = (event) => {
-    //     this.setState({
-    //         result: event.target.value
-    //     })
-    // }
-
     calculate = () => {
         const input = this.state.input;
         console.log(input)
         if(this.state.base==='Kilometre' && this.state.convertTo==='Metres'){
             const result = input*1000;
+            this.setState({
+                result
+            })
+        }
+        if(this.state.base==='Kilometre' && this.state.convertTo==='Centimetres'){
+            const result = input/0.000010000;
+            this.setState({
+                result
+            })
+        }
+        if(this.state.base==='Kilometre' && this.state.convertTo==='Milimetre'){
+            const result = input/0.0000010000;
+            this.setState({
+                result
+            })
+        }
+        if(this.state.base==='Kilometre' && this.state.convertTo==='Micrometre'){
+            const result = input/0.0000000010000;
+            this.setState({
+                result
+            })
+        }
+        if(this.state.base==='Kilometre' && this.state.convertTo==='Mile'){
+            const result = input*0.62137;
+            this.setState({
+                result
+            })
+        }
+        if(this.state.base==='Kilometre' && this.state.convertTo==='Foot'){
+            const result = input*3280.8;
             this.setState({
                 result
             })
@@ -53,6 +77,50 @@ class InputBox extends Component {
                 result
             })
         }
+        if(this.state.base==='Metres' && this.state.convertTo==='Centimetres'){
+            const result = input/0.01;
+            console.log(result)
+            this.setState({
+                result
+            })
+        }
+        if(this.state.base==='Metres' && this.state.convertTo==='Milimetre'){
+            const result = input/0.0010000;
+            console.log(result)
+            this.setState({
+                result
+            })
+        }
+        if(this.state.base==='Metres' && this.state.convertTo==='Micrometre'){
+            const result = input/0.0000010000;
+            console.log(result)
+            this.setState({
+                result
+            })
+        }
+        if(this.state.base==='Metres' && this.state.convertTo==='Mile'){
+            const result = input* 0.00062137;
+            console.log(result)
+            this.setState({
+                result
+            })
+        }
+        if(this.state.base==='Metres' && this.state.convertTo==='Foot'){
+            const result = input* 3.2808;
+            console.log(result)
+            this.setState({
+                result
+            })
+        }
+        if(this.state.base==='Centimetres' && this.state.convertTo==='Metres'){
+            const result = input/100;
+            console.log(result)
+            this.setState({
+                result
+            })
+        }
+        
+       
     } 
 
     render() {
@@ -72,7 +140,7 @@ class InputBox extends Component {
                     </span>
                 </div>
                 <div className="boxtwo">
-                    <input type="" value={result} id="inputtwo" onChange={this.handleInput} ></input>
+                    <input type="" value={result} id="inputtwo" onChange={this.handleInput}></input>
                     <span>
                         <select
                         name="convertTo"
