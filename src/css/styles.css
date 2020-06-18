@@ -29,6 +29,12 @@ button{
     border: none;
     border-radius: 7px;
     background-color: white;
+    cursor: pointer;
+    /* text-decoration: none !important; */
+}
+
+a{
+    text-decoration: none;
 }
 
 img{
@@ -38,6 +44,7 @@ justify-content: center;
 }
 
 #scale{
+    /* text-decoration: none !important; */
     margin-left: 3.5rem;
 }
 
